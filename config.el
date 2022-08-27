@@ -1,7 +1,8 @@
 (setq display-line-numbers-type nil)
 
 ;; Theme
-(setq doom-theme 'doom-outrun-electric)
+;(setq doom-theme 'doom-outrun-electric)
+(setq doom-theme 'doom-dracula)
 (setq doom-font (font-spec :family "Monego" :size 16)
       doom-variable-pitch-font (font-spec :family "Monego" :size 16)
       doom-big-font (font-spec :family "Monego" :size 18))
@@ -23,7 +24,8 @@
   (set-face-attribute 'mode-line-inactive nil :box nil))
 
 (custom-set-faces!
-  '(default :background "#000000" :foreground "#ffffff")
+  ;'(default :background "#000000" :foreground "#ffffff")
+  '(default :foreground "#ffffff")
   '(ivy-minibuffer-match-face-1 :background "#ff79c6" :foreground "#000000")
   '(ivy-minibuffer-match-face-2 :background "#ff79c6" :foreground "#000000")
   '(ivy-minibuffer-match-face-3 :background "#ff79c6" :foreground "#000000")
